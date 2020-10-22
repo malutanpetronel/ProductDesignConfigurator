@@ -1,0 +1,3 @@
+petro_sylius_product_design_configurator_plugin:
+    ui:
+        spatial_model: Spatial 3D model

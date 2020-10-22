@@ -1,0 +1,25 @@
+# Delete these routes and define your own shop routes here
+
+acme_sylius_example_static_welcome:
+    path: /static-welcome/{name}
+    defaults:
+        _controller: SyliusProductDesignConfiguratorPlugin:Greeting:staticallyGreet
+        name: ~
+
+acme_sylius_example_dynamic_welcome:
+    path: /dynamic-welcome/{name}
+    defaults:
+        _controller: SyliusProductDesignConfiguratorPlugin:Greeting:dynamicallyGreet
+        name: ~
+
+product_design.show:
+    path: /product_design/{id}
+    methods: [GET]
+    defaults:
+        _controller: SyliusProductDesignConfiguratorPlugin:ProductDesign:show
+        _sylius:
+            template: ProductDesignConfigurator:Product:show.html.twig # Use a custom template.
+            repository:
+                method: findForStore # Use a custom repository method.
+                arguments: [id] # Pass the product id from the url to the repository.
+            arguments: ['expr:service("security.context").getToken().getUser()']
