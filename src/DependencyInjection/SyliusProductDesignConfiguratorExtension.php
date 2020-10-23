@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Petro\ProductDesignConfigurator\DependencyInjection;
+namespace Petro\ProductDesignConfiguratorPlugin\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

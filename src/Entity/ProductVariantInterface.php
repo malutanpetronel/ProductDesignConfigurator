@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Petro\ProductDesignConfigurator\Entity;
+namespace Petro\ProductDesignConfiguratorPlugin\Entity;
 
 interface ProductVariantInterface
 {

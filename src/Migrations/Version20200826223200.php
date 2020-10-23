@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Petro\ProductDesignConfigurator\Migrations;
+namespace App\Migrations;
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;

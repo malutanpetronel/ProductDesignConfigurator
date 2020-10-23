@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Petro\ProductDesignConfigurator\Form\Extension;
+namespace Petro\ProductDesignConfiguratorPlugin\Form\Extension;
 
 use Sylius\Bundle\ProductBundle\Form\Type\ProductVariantType;
 use Symfony\Component\Form\AbstractTypeExtension;

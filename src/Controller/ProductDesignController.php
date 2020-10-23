@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Petro\ProductDesignConfigurator\Controller;
+namespace Petro\ProductDesignConfiguratorPlugin\Controller;
 
 use Sylius\Component\Product\Repository\ProductRepositoryInterface as ProductRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

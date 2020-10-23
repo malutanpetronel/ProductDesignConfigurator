@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Petro\ProductDesignConfigurator\Controller;
+namespace Petro\ProductDesignConfiguratorPlugin\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;

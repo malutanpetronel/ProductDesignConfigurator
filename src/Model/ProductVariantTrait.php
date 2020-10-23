@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Petro\ProductDesignConfigurator\Model;
+namespace Petro\ProductDesignConfiguratorPlugin\Model;
 
 trait ProductVariantTrait
 {

@@ -1,18 +1,18 @@
 # Delete these routes and define your own shop routes here
 
-acme_sylius_example_static_welcome:
+pspdcp.static_welcome:
     path: /static-welcome/{name}
     defaults:
         _controller: SyliusProductDesignConfiguratorPlugin:Greeting:staticallyGreet
         name: ~
 
-acme_sylius_example_dynamic_welcome:
+pspdcp.dynamic_welcome:
     path: /dynamic-welcome/{name}
     defaults:
         _controller: SyliusProductDesignConfiguratorPlugin:Greeting:dynamicallyGreet
         name: ~
 
-product_design.show:
+pspdcp.product_design.show:
     path: /product_design/{id}
     methods: [GET]
     defaults:

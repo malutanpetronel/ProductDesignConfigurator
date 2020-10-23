@@ -3,7 +3,7 @@
     "license":      "proprietary",
     "type":         "sylius-plugin",
     "description": "Plugin allowing to add WebGl to see a product in 3D and create custom product variant in Sylius.",
-    "keywords": ["sylius", "sylius-plugin"],
+    "keywords": ["sylius", "sylius-plugin", "sylius-product-design-configurator-plugin"],
     "homepage":     "http://evozon.com",
     "authors": [
         {
@@ -46,8 +46,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Petro\\ProductDesignConfigurator\\": "ProductDesignConfigurator/",
-            "Tests\\Acme\\SyliusProductDesignConfiguratorSkeleton\\": "tests/"
+            "Petro\\ProductDesignConfiguratorPlugin\\": "src/",
+            "Tests\\Petro\\ProductDesignConfiguratorPlugin\\": "tests/"
         }
     },
     "autoload-dev": {
