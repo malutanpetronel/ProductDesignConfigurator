@@ -17,7 +17,7 @@
             <div class="one field">
                 {{ form_row(form.shippingRequired) }}
                 {{ form_row(form.spatialModel) }}
-                <a href="{{ path('sylius_product_design_configurator_plugin.product_design.show', {'id': app.request.attributes.get('id'),}) }}" class="header sylius-product_design">{{ 'sylius_product_design_configurator_plugin.ui.spatialModel'|trans }}</a>
+                <a href="{{ path('sylius_product_design_configurator_plugin.product_design.show', {'id': app.request.attributes.get('id'),}) }}" class="header sylius-product_design">{{ 'sylius_product_design_configurator.ui.spatialModel'|trans }}</a>
             </div>
         </div>
         <div class="ui hidden divider"></div>
