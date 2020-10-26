@@ -3,10 +3,12 @@ declare(strict_types=1);
 
 namespace Petro\ProductDesignConfiguratorPlugin\Model;
 
+use Doctrine\ORM\Mapping as ORM;
+
 trait ProductVariantTrait
 {
     /**
-     * @var bool
+     * @var SpatialModel bool
      *
      * @ORM\Column(type="boolean", name="spatial_model")
      */

@@ -2,10 +2,10 @@ parameters:
     locale: en_US
 
 services:
-#    petro_sylius_product_design_configurator_plugin.form.extension.type.product_variant:
-#        class: Petro\ProductDesignConfiguratorPlugin\Form\Extension\ProductVariantTypeExtension
-#        tags:
-#            - { name: form.type_extension, extended_type: Sylius\Bundle\ProductBundle\Form\Type\ProductVariantType }
+    petro_sylius_product_design_configurator_plugin.form.extension.type.product_variant:
+        class: Petro\ProductDesignConfiguratorPlugin\Form\Extension\ProductVariantTypeExtension
+        tags:
+            - { name: form.type_extension, extended_type: Sylius\Bundle\ProductBundle\Form\Type\ProductVariantType }
 
     #Service "sylius.repository.product" not found: even though it exists in the app's container,
 #    product_design.repository.product: '@Sylius\Bundle\CoreBundle\Doctrine\ORM\ProductRepository'

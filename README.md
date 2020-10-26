@@ -43,7 +43,7 @@ Petro\ProductDesignConfigurator\SyliusProductDesignConfiguratorPlugin::class => 
 #### Enable plugin routes
 Add the following routes into your project routes.yml
 <pre>
-pspdcp:
+sylius-product-design-configurator-plugin:
     # loads routes from the SyliusProductDesignConfigurator Plugin
     resource: '@SyliusProductDesignConfiguratorPlugin/Resources/config/shop_routing.yml'
 </pre>

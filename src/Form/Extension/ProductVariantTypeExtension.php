@@ -12,7 +12,7 @@ final class ProductVariantTypeExtension extends AbstractTypeExtension
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder->add('spatialModel', CheckboxType::class, [
-            'label' => 'petro_sylius_product_design_configurator_plugin.ui.spatial_model',
+            'label' => 'sylius_product_design_configurator_plugin.ui.spatial_model',
         ]);
     }
 
